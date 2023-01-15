@@ -2,14 +2,14 @@ h1{
     background-color: lightgray;
 }
 
-.titleOne, .titleTwo, .missionStat {
+.titleOne, .titleTwo, .missionStat, .missionSubject, .antagonist, .hook{
     background-color: beige;
     border-color: blue;
     border: 4px solid;
     margin-bottom: 20px;
 }
 
-#titlePartOne, #titlePartTwo, #mission{
+#titlePartOne, #titlePartTwo, #mission, #missionTwo, #hookPrint, #villain{
     font-size: 20px;
     font-weight: bold;
 }
