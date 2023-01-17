@@ -1,3 +1,17 @@
+function story() {
+    newQuote();
+    partTwo();
+    mission();
+    missionTwo();
+    hookPrint();
+    villain();
+    ally();
+    complication();
+    plotTwist();
+    reward();
+}
+
+
 let titlePartOne = [
     "Acolyte",
     "Beast",

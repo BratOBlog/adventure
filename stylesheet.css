@@ -2,6 +2,26 @@ body {
     background-color: rgb(114, 109, 109);
 }
 
+.fullStory {
+    text-align: center;
+}
+
+a:link {
+    color: rgb(129, 8, 8);
+}
+
+a:active{
+    color: blue;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:visited {
+    color: green;
+}
+
 .mainSection {
     background-image: url(wallpaperbetter.jpg);
     /*Wallpaper is from wallapaperbetter, artist unknown at this point.*/
@@ -37,15 +57,16 @@ h1 {
     margin-bottom: 30px;
 }
 
-h2{
+h2 {
     font-size: 30px;
 }
 
-h3{
+h3 {
     font-size: 23px;
 }
 
-h2, h3{
+h2,
+h3 {
     color: whitesmoke;
     text-align: center;
     margin-top: 40px;
