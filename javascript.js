@@ -285,3 +285,5 @@ function reward() {
     let randomNumber = Math.floor(Math.random() * (rewardPool.length));
     document.getElementById("reward").innerHTML = rewardPool[randomNumber];
 }
+
+
