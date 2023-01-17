@@ -243,7 +243,7 @@ let twist = [
     "Entire adventure is actually a delusion or dream",
     "Entire adventure is actually the jest of a mad god",
     "Forced to ally with enemy or rival",
-    "Goals and motivations of important of a secondary characters have been misrepresented",
+    "Goals and motivations of an important secondary characters have been misrepresented",
     "Important secondary character has a twin brother or sister, leading to mass confusion",
     "Original mission is actually a red herring (roll on Mission table to determine actual mission)",
     "Original mission is actually a trap and actual mission is to survive and escape",
