@@ -13,134 +13,160 @@
 
 
 <body>
+    <main>
+        <h1>Sword and sorcery adventure generator</h1>
 
-    <h1>Sword and sorcery adventure generator</h1>
+        <section class=mainSection>
+            <div>
+                <h2>What this generator is about</h2>
+                <p class="description">This is a sword and sorcery adventure generator, where you can generate a fun
+                    campain
+                    or a writing prompt.<br>
+                    Based on the <a
+                        href="https://www.hyperborea.tv/uploads/4/4/6/6/44662451/asshrandom-adv-gen.pdf">Random Sword
+                        and Sorcery Adventure generator of Ben Ball. </a> <br>
+                    Some aspects are altered to get a more general feel, so writers could also enjoy the generator. <br>
+                    Currently you can generate each part individually to your liking or get the whole story by clicking
+                    a button.</p>
 
-    <div class=mainSection>
-        <div>
-            <h2>What this generator is about</h2>
-            <p class="description">This is a sword and sorcery adventure generator, where you can generate a fun campain
-                or
-                a writing prompt.
-                Based on the <a href="https://www.hyperborea.tv/uploads/4/4/6/6/44662451/asshrandom-adv-gen.pdf">Random Sword and Sorcery Adventure generator of Ben Ball. </a> 
-                Some aspects are altered to get a more general feel, so writers could also enjoy the generator.
-                Currently you can generate each part individually to your liking or get the whole story by clicking a button below.</p>
+                <hr>
+                <div class="quote">
+                    <div>"Sword and sorcery (S&S) is a subgenre of fantasy characterized by sword-wielding heroes engaged in
+                    exciting and violent adventures. <br>
+                    Elements of romance, magic, and the supernatural are also often present. <br>
+                    Unlike works of high fantasy, the tales, though dramatic, focus on personal battles rather than
+                    world-endangering matters.<br>
+                    Sword and sorcery commonly overlaps with heroic fantasy." <br> </div>
+                    <a href="https://en.wikipedia.org/wiki/Sword_and_sorcery"> Sword and Sorcery page from Wikipedia</a>
+                </div>
+
+
+                <hr>
+
+
+                <h3>Let's begin! All you need is to click the buttons. By refreshing the page it will go to idle state.
+                </h3>
+            </div>
 
                 <div class="fullStory">
-                    <button onclick="story()">Tell me the story at once, I don't have time to click thousand buttons.</button>
-            
+                    <button onclick="story()">Tell me the story at once, I don't have time to click thousand
+                        buttons.</button>
+
                     <script src=".\javascript.js"></script>
                 </div>
 
-            <h3>Let's begin! All you need is to click the buttons. By refreshing the page it will go to idle state.</h3>
-        </div>
+            <div class="title">
+                <article class="titleOne">
+                    <p> First half of the tittle of your adventure:</p>
+                    <div id="titlePartOne">
+                        <!-- The title will display here-->
+                    </div>
+                    <button onclick="newQuote()">First half of the title</button>
 
-        <div class="title">
-            <div class="titleOne">
-                <p> First half of the tittle of your adventure:</p>
-                <div id="titlePartOne">
+                    <script src=".\javascript.js"></script>
+                </article>
+
+                <article class="titleTwo">
+                    <p> Second half of the title of your adventure:</p>
+                    <div id="titlePartTwo">
+                        <!-- The title will display here-->
+                    </div>
+                    <button onclick="partTwo()">Second half of the title</button>
+
+                    <script src=".\javascript.js"></script>
+                </article>
+            </div>
+
+            <article class="missionStat">
+                <p> The mission your adventure is based on:</p>
+                <div id="mission">
                     <!-- The title will display here-->
                 </div>
-                <button onclick="newQuote()">First half of the title</button>
+                <button onclick="mission()">Mission parameters</button>
 
                 <script src=".\javascript.js"></script>
-            </div>
+            </article>
 
-            <div class="titleTwo">
-                <p> Second half of the title of your adventure:</p>
-                <div id="titlePartTwo">
+            <article class="missionSubject">
+                <p> Subject of mission Person involved / Place where it happens / Thing that is involved</p>
+                <div id="missionTwo">
                     <!-- The title will display here-->
                 </div>
-                <button onclick="partTwo()">Second half of the title</button>
+                <button onclick="missionTwo()">Get me the subject of the mission </button>
 
                 <script src=".\javascript.js"></script>
-            </div>
-        </div>
+            </article>
 
-        <div class="missionStat">
-            <p> The mission your adventure is based on:</p>
-            <div id="mission">
-                <!-- The title will display here-->
-            </div>
-            <button onclick="mission()">Mission parameters</button>
+            <article class="hook">
+                <p> Hooks, there are always hooks</p>
+                <div id="hookPrint">
+                    <!-- The title will display here-->
+                </div>
+                <button onclick="hookPrint()">Generate mission hooks </button>
 
-            <script src=".\javascript.js"></script>
-        </div>
-
-        <div class="missionSubject">
-            <p> Subject of mission Person involved / Place where it happens / Thing that is involved</p>
-            <div id="missionTwo">
-                <!-- The title will display here-->
-            </div>
-            <button onclick="missionTwo()">Get me the subject of the mission </button>
-
-            <script src=".\javascript.js"></script>
-        </div>
-
-        <div class="hook">
-            <p> Hooks, there are always hooks</p>
-            <div id="hookPrint">
-                <!-- The title will display here-->
-            </div>
-            <button onclick="hookPrint()">Generate mission hooks </button>
-
-            <script src=".\javascript.js"></script>
-        </div>
+                <script src=".\javascript.js"></script>
+            </article>
 
 
-        <div class="antagonist">
-            <p> Every good story needs a villain</p>
-            <div id="villain">
-                <!-- The title will display here-->
-            </div>
-            <button onclick="villain()">Who will be the villain </button>
+            <article class="antagonist">
+                <p> Every good story needs a villain</p>
+                <div id="villain">
+                    <!-- The title will display here-->
+                </div>
+                <button onclick="villain()">Who will be the villain </button>
 
-            <script src=".\javascript.js"></script>
-        </div>
-
-
-        <div class="ally">
-            <p> There will be allys in this adventure</p>
-            <div id="ally">
-                <!-- The title will display here-->
-            </div>
-            <button onclick="ally()">Who will be the ally </button>
-
-            <script src=".\javascript.js"></script>
-        </div>
-
-        <div class="complication">
-            <p> Complications</p>
-            <div id="complication">
-                <!-- The title will display here-->
-            </div>
-            <button onclick="complication()"> Things are gettin pretty serious</button>
-
-            <script src=".\javascript.js"></script>
-        </div>
-
-        <div class="twist">
-            <p> Oh no a twist in the story</p>
-            <div id="plotTwist">
-                <!-- The title will display here-->
-            </div>
-            <button onclick="plotTwist()"> Sudden plot twist</button>
-
-            <script src=".\javascript.js"></script>
-        </div>
-
-        <div class="rewards">
-            <p> Reward at the end of the adventure</p>
-            <div id="reward">
-                <!-- The title will display here-->
-            </div>
-            <button onclick="reward()"> What reward awaits </button>
-
-            <script src=".\javascript.js"></script>
-        </div>
-    </div>
+                <script src=".\javascript.js"></script>
+            </article>
 
 
+            <article class="ally">
+                <p> There will be allys in this adventure</p>
+                <div id="ally">
+                    <!-- The title will display here-->
+                </div>
+                <button onclick="ally()">Who will be the ally </button>
+
+                <script src=".\javascript.js"></script>
+            </article>
+
+            <article class="complication">
+                <p> Complications</p>
+                <div id="complication">
+                    <!-- The title will display here-->
+                </div>
+                <button onclick="complication()"> Things are gettin pretty serious</button>
+
+                <script src=".\javascript.js"></script>
+            </article>
+
+            <article class="twist">
+                <p> Oh no a twist in the story</p>
+                <div id="plotTwist">
+                    <!-- The title will display here-->
+                </div>
+                <button onclick="plotTwist()"> Sudden plot twist</button>
+
+                <script src=".\javascript.js"></script>
+            </article>
+
+            <article class="rewards">
+                <p> Reward at the end of the adventure</p>
+                <div id="reward">
+                    <!-- The title will display here-->
+                </div>
+                <button onclick="reward()"> What reward awaits </button>
+
+                <script src=".\javascript.js"></script>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        ><ul>
+            <li>Contact</li>
+        </ul>
+    </footer>
 
 </body>
 

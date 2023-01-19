@@ -11,6 +11,11 @@ function story() {
     reward();
 }
 
+function alertStory(){
+    story();
+    alert(story);
+}
+
 
 let titlePartOne = [
     "Acolyte",

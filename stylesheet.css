@@ -23,10 +23,10 @@ a:visited {
 }
 
 .mainSection {
-    background-image: url(wallpaperbetter.jpg);
-    /*Wallpaper is from wallapaperbetter, artist unknown at this point.*/
+    background-image: url(https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    /*Wallpaper is from unsplash  copyright Thomas Griesbeck*/
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 h1 {
@@ -46,16 +46,30 @@ h1 {
 
 }
 
+.quote{
+    text-align: left;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 12px;
+    margin-top: 20px;
+    text-align: center;
 
+}
+
+.quote div{
+font-style: italic;
+text-shadow: 2px 1px black;
+opacity: 0.8;
+}
 
 .description {
-    text-align: justify;
-    overflow-wrap: break-word;
+    text-align: center;
     color: whitesmoke;
     font-size: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 
 h2 {
     font-size: 30px;
@@ -143,4 +157,10 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     margin: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
