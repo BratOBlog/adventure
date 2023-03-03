@@ -10,3 +10,4 @@ THe CSS is just random experimenting with different styles.
 
 So all credit goes to the original sources, hope you enjoy playing aroung with this generator as much as I enjoyed making it.
 
+EDIT 03.03.2023 - Started experimenting with bootstrap on CSS and HTML files. 
