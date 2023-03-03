@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(114, 109, 109);
+    background-color: rgb(82, 44, 44);
 }
 
 .fullStory {
@@ -23,13 +23,13 @@ a:visited {
 }
 
 .mainSection {
-    background-image: url(https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
-    /*Wallpaper is from unsplash  copyright Thomas Griesbeck*/
+    background-image: url(https://images.unsplash.com/photo-1518709268805-4e9042af9f23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1884&q=80);
+    /*Wallpaper is from unsplash  copyright Tim Rebkavets*/
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1 {
+.heading {
     padding: 80px;
     margin-bottom: 30px;
     text-align: center;
@@ -46,96 +46,43 @@ h1 {
 
 }
 
-.quote{
-    text-align: left;
+.quote,.mainInfo{
     font-size: 25px;
-    color: whitesmoke;
+    color: black;
     padding: 12px;
-    margin-top: 20px;
+    margin: 40px;
     text-align: center;
-
-}
-
-.quote div{
-font-style: italic;
-text-shadow: 2px 1px black;
-opacity: 0.8;
-}
-
-.description {
-    text-align: center;
-    color: whitesmoke;
-    font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 
 h2 {
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 h3 {
     font-size: 23px;
+    margin-bottom: 30px;
 }
 
-h2,
-h3 {
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 
-button {
-    border-radius: 18%;
-    background-color: rgba(151, 158, 145, 0.87);
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    border-color: white;
-    padding: 12px;
-    box-shadow: 10px;
-    border: 1px solid rgba(27, 31, 35, 0.15);
-    border-radius: 6px;
-    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
-    box-sizing: border-box;
-}
 
-button:hover {
-    background-color: #3e4f72;
-    text-decoration: none;
-    transition-duration: 0.2s;
-}
-
-.titleOne,
-.titleTwo,
-.missionStat,
-.missionSubject,
-.antagonist,
-.hook,
-.ally,
-.complication,
-.twist,
-.rewards {
+.container {
+    text-align:center;
     margin-bottom: 20px;
     padding: 10px;
     font-size: 30px;
     color: white;
     text-shadow: 3px 3px black;
-
 }
 
-.missionStat,
-.missionSubject,
-.antagonist,
-.hook,
-.ally,
-.complication,
-.twist,
-.rewards {
-    text-align: center;
-    border-top: 2px solid rgba(251, 253, 249, 0.6)
+.col p{
+    color: yellow;
+    margin: 20px;
+}
+
+button{
+    margin-bottom: 20px;
 }
 
 #titlePartOne,
